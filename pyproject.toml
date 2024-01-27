@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "innoter"
+version = "0.1.0"
+description = ""
+authors = ["KateM_zz <zupperu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+markdown = "^3.5.2"
+django-filter = "^23.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

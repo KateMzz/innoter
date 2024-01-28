@@ -16,6 +16,7 @@ pytest = "^7.4.4"
 ruff = "^0.1.14"
 mysqlclient = "^2.2.1"
 django-environ = "^0.11.2"
+pre-commit = "^3.6.0"
 
 
 [tool.black]

@@ -35,9 +35,9 @@ jobs:
         uses: psf/black@23.11.0
         with:
             options: "--check"
-            src: "./src"
+            src: "./"
       - name: Ruff
         uses: chartboost/ruff-action@v1
         with:
-          src: "./src"
+          src: "./"
           version: 0.0.291

@@ -7,7 +7,7 @@ class Post(models.Model):
     page = models.ForeignKey(Page, on_delete=models.CASCADE)
     content = models.TextField()
     reply_to = models.ForeignKey("self", null=True, blank=True, on_delete=models.CASCADE)
-    likes = models.ManyToManyField("Likes", related_name="like_posts")
+    likes = models.ForeignKey("Likes", related_name="like_posts", null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
